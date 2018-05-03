@@ -31,23 +31,18 @@ SET INPUT=
 SET /P INPUT=Please select an Option:
 
 IF /I '%INPUT%'=='1' GOTO 1
-IF /I '%INPUT%'=='2' GOTO 2
-IF /I '%INPUT%'=='3' GOTO 3
-IF /I '%INPUT%'=='4' GOTO 4
-IF /I '%INPUT%'=='5' GOTO 5
+IF /I '%INPUT%'=='3' GOTO 2
+IF /I '%INPUT%'=='4' GOTO 3
 
 :1
 start www.github.com
 goto home
 
-:2
-start github.com/CookieRed6/Octoro/archive/master.zip
-goto home
 
-:3
+:2
 exit
 
-:4
+:3
 echo    ====Octoro====
 echo  Version: 0.0.9
 echo  Made by CookieRed6
