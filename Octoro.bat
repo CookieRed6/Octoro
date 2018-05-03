@@ -10,7 +10,6 @@ echo [             Loading...              ]
 echo \_____________________________________/
 echo.
 TIMEOUT 10
-pause
 goto home
 
 :home
