@@ -79,7 +79,7 @@ exit
 
 :3
 echo    ====Octoro====
-echo  Version: 0.1.0
+echo  Version: 0.1.1
 echo  Made by CookieRed6
 pause
 goto home
@@ -196,7 +196,7 @@ PAUSE
 GOTO:TOP
 
 :newf
-md A new folder
+md Cookie
 echo new folder made!
 pause
 goto home
