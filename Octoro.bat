@@ -5,7 +5,7 @@ cls
 :start
 cls
 echo  _____________________________________
-echo /              Octoro  0.1.0          \
+echo /              Octoro  0.1.1          \
 echo [             Loading...              ]
 echo \_____________________________________/
 echo.
@@ -16,7 +16,7 @@ goto home
 cls
 color 0a
 echo  _____________________________________
-echo /             Octoro  0.1.0           \
+echo /             Octoro  0.1.1           \
 echo [                 Home                ]
 echo \_____________________________________/
 echo.
@@ -25,7 +25,9 @@ echo.
 echo 1. GITHUB
 echo 2. Exit
 echo 3. About
-echo 4.Calculator
+echo 4. Calculator
+echo 5. Make new folder
+echo 6. App Launcher
 echo.
 SET INPUT=
 SET /P INPUT=Please select an Option:
@@ -34,9 +36,41 @@ IF /I '%INPUT%'=='1' GOTO 1
 IF /I '%INPUT%'=='2' GOTO 2
 IF /I '%INPUT%'=='3' GOTO 3
 IF /I '%INPUT%'=='4' GOTO TOP
+IF /I '%INPUT%'=='5' GOTO newf
+IF /I '%INPUT%'=='6' GOTO apps
 
 :1
 start www.github.com
+goto home
+
+:apps
+echo.
+echo 1.Microsoft Paint
+echo 2.Notepad
+echo 3.Control Panel
+echo 4.File Explorer
+echo.
+SET INPUT=
+SET /P INPUT=Please select an Option:
+IF /I '%INPUT%'=='1' goto mspaint
+IF /I '%INPUT%'=='2' goto notepad
+IF /I '%INPUT%'=='3' goto contol
+IF /I '%INPUT%'=='4' goto file
+
+:mspaint
+start mspaint
+goto home
+
+:notepad
+start notepad
+goto home
+
+:contol
+start control
+goto home 
+
+:file
+start explorer
 goto home
 
 
@@ -160,3 +194,10 @@ ECHO --------------------------------------------------
 ECHO Press (+) For Sum, (-) For Sub, (/) for Division, (*) for Multiply.
 PAUSE
 GOTO:TOP
+
+:newf
+md A new folder
+echo new folder made!
+pause
+goto home
+
