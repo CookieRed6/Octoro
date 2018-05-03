@@ -14,6 +14,7 @@ goto home
 
 :home
 cls
+color 0a
 echo  _____________________________________
 echo /             Octoro  0.1.0           \
 echo [                 Home                ]
