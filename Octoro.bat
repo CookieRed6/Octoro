@@ -9,7 +9,7 @@ echo /              Octoro  0.0.8          \
 echo [             Loading...              ]
 echo \_____________________________________/
 echo.
-sleep 10
+TIMEOUT 10
 pause
 goto home
 
