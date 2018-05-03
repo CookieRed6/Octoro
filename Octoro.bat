@@ -5,7 +5,7 @@ cls
 :start
 cls
 echo  _____________________________________
-echo /              Octoro  0.0.8          \
+echo /              Octoro  0.0.9          \
 echo [             Loading...              ]
 echo \_____________________________________/
 echo.
@@ -16,7 +16,7 @@ goto home
 :home
 cls
 echo  _____________________________________
-echo /             Octoro  0.0.8           \
+echo /             Octoro  0.0.9           \
 echo [                 Home                ]
 echo \_____________________________________/
 echo.
@@ -49,7 +49,7 @@ exit
 
 :4
 echo    ====Octoro====
-echo  Version: 0.0.8
+echo  Version: 0.0.9
 echo  Made by CookieRed6
 pause
 goto home
