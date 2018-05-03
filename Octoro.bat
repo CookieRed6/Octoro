@@ -29,8 +29,8 @@ SET INPUT=
 SET /P INPUT=Please select an Option:
 
 IF /I '%INPUT%'=='1' GOTO 1
-IF /I '%INPUT%'=='3' GOTO 2
-IF /I '%INPUT%'=='4' GOTO 3
+IF /I '%INPUT%'=='2' GOTO 2
+IF /I '%INPUT%'=='3' GOTO 3
 
 :1
 start www.github.com
