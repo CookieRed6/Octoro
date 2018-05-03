@@ -1,0 +1,12 @@
+0.0.8
+------
+released
+
+0.0.9
+------
+fixed major and minor bugs
+
+0.1.0
+------
+released full version:
+calculator
