@@ -5,7 +5,7 @@ cls
 :start
 cls
 echo  _____________________________________
-echo /              Octoro  0.0.9          \
+echo /              Octoro  0.1.0          \
 echo [             Loading...              ]
 echo \_____________________________________/
 echo.
@@ -15,7 +15,7 @@ goto home
 :home
 cls
 echo  _____________________________________
-echo /             Octoro  0.0.9           \
+echo /             Octoro  0.1.0           \
 echo [                 Home                ]
 echo \_____________________________________/
 echo.
@@ -24,6 +24,7 @@ echo.
 echo 1. GITHUB
 echo 2. Exit
 echo 3. About
+echo 4.Calculator
 echo.
 SET INPUT=
 SET /P INPUT=Please select an Option:
@@ -43,7 +44,7 @@ exit
 
 :3
 echo    ====Octoro====
-echo  Version: 0.0.9
+echo  Version: 0.1.0
 echo  Made by CookieRed6
 pause
 goto home
@@ -53,7 +54,7 @@ color 3f
 Cls
 ECHO ----------------------------------------------------
 ECHO[
-ECHO                    DOS CALCULATOR
+ECHO                    Octoro CALCULATOR
 ECHO[
 ECHO ----------------------------------------------------
 ECHO[
