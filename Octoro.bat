@@ -23,9 +23,8 @@ echo.
 echo Welcome to Octoro, the simple 1-stop devoloper UI
 echo.
 echo 1. GITHUB
-echo 2. Get Latest version of Octoro
-echo 3. Exit
-echo 4. About
+echo 2. Exit
+echo 3. About
 echo.
 SET INPUT=
 SET /P INPUT=Please select an Option:
