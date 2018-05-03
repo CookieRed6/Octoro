@@ -1,2 +1,2 @@
 # Octoro
-I am still planning what this will be but it will stay on github for a while.
+Octoro is a github client and a simple tool for simple people( a.k.a. Normies)
